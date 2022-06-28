@@ -83,3 +83,55 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 610px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  .homepage-wrapper {
+    text-align: center;
+  }
+  .project-images {
+    margin-top: 24px;
+  }
+  .homepage-images {
+    display: none;
+  }
+  .homepage-wrapper a {
+    padding: 20px 80px;
+  }
+  .yogurt-app {
+    margin: 0 auto !important;
+  }
+  .weather-app {
+    margin-bottom: 40px !important;
+  }
+  #contact {
+    margin-bottom: 48px;
+  }
+}
+@media (max-width: 290px) {
+  .navigation-links {
+    font-size: 10px;
+  }
+  .navigation-links a {
+    padding: 15px 10px 15px 10px;
+  }
+  .email-link {
+    font-size: 20px;
+  }
+  .homepage-wrapper a {
+    padding: 20px 15px;
+  }
+  #contact h2 {
+    font-size: 25px;
+  }
+}
